@@ -34,7 +34,7 @@ public class LoginScreenPageStepDefinition {
 
 	@Given("the user is on the login page")
 	public void the_user_is_on_the_login_page() {
-		Assert.assertTrue(loginScreenPage.getTitleLoginScreenPage().contains("Fang-Farm-Ui"));
+		Assert.assertTrue(loginScreenPage.getTitleLoginScreenPage().contains("Maicon Fang Portfolio"));
 	}
 
 	@When("^the user enters valid credentials (.+) and (.+)")
@@ -81,7 +81,7 @@ public class LoginScreenPageStepDefinition {
 
 	@Then("the user remains on the login page")
 	public void the_user_remains_on_the_login_page() {
-		Assert.assertTrue(loginScreenPage.getTitleLoginScreenPage().contains("Fang-Farm-Ui"));
+		Assert.assertTrue(loginScreenPage.getTitleLoginScreenPage().contains("Maicon Fang Portfolio"));
 	}
 
 }
